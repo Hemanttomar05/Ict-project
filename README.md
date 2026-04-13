@@ -1,6 +1,9 @@
 # Ict-project
 This about my ict workshop project which i made using arduino uno
+
+
 👏 Clap Controlled Lamp using Arduino Nano
+
 📌 Project Overview
 
 This project demonstrates a simple home automation system where a lamp is controlled using sound (claps). The system uses an Arduino Nano, a sound sensor, and a relay module to detect clap patterns and toggle a lamp ON or OFF.
@@ -8,12 +11,16 @@ This project demonstrates a simple home automation system where a lamp is contro
 When two claps are detected within a short time interval, the Arduino processes the signal and switches the relay, allowing control of high-voltage devices like bulbs safely.
 
 🎯 Objectives
+
 To design a clap-based automation system
 To understand sound sensor interfacing with Arduino
 To control AC devices safely using a relay module
 To implement timing logic (double clap detection) in Arduino
 To build a low-cost and beginner-friendly IoT/home automation project
+
+
 🧰 Components Used
+
 Arduino Nano
 Sound Sensor Module
 5V Relay Module
@@ -27,6 +34,9 @@ Female Headers
 Terminal Connectors
 DC Barrel Jack
 PCB (optional)
+
+
+
 🔌 Circuit Connections
 Sound Sensor OUT → Arduino Digital Pin D3
 Relay IN → Arduino Digital Pin D2
@@ -83,14 +93,18 @@ void loop() {
     clapCount = 0;
   }
 }
+
 🚀 How It Works
+
 The sound sensor detects a clap and sends a signal to Arduino
 Arduino checks for two claps within 1 second
 If detected, it toggles the relay state
 The relay switches the connected lamp ON/OFF
+
 📷 Output
 Clap twice → Lamp turns ON
 Clap twice again → Lamp turns OFF
+
 ⚡ Applications
 Smart home automation
 Hands-free lighting systems
